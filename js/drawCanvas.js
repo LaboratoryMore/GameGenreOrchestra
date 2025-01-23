@@ -27,7 +27,8 @@ window.onload = function()
 	function adjustCanvasSize()
 	{
 		// 画面の幅の80%に合わせて設定（任意の比率に変更可能）
-		const width = window.innerWidth * 0.9;
+		const width = 1280;
+		//const width = window.innerWidth * 0.9;
 		
 		// アスペクト比に基づいて高さを計算
 		const height = width / aspectRatio;
