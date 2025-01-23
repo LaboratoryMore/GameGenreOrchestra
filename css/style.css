@@ -1,0 +1,64 @@
+html, body
+{
+	margin: 20;	/* デフォルトの余白をリセット */
+	padding: 0;	/* パディングもリセット */
+	/*overflow-x: hidden;*/	/* 横スクロールの発生を防止 */
+	line-height: 2;		/* 行間を調整 */
+	text-align: left;
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9;
+	height: 100%;		/* ページ全体の高さを設定 */
+}
+
+.container
+{
+	display: flex;
+	flex-direction: column;		/* 子要素を縦方向に並べる */
+	justify-content: center;	/* 縦方向で中央揃え */
+	align-items: center;		/* 横方向で中央揃え */
+}
+
+.form-group
+{
+	margin-bottom: 8px;	/* 各divタグの下に余白を設定 */
+	display: flex;			/* ラベルと入力欄を横並びに */
+	align-items: center;	/* ラベルと入力欄を垂直方向で中央揃え */
+}
+
+.button-group
+{
+	margin-bottom: 8px;	/* 各divタグの下に余白を設定 */
+	display: flex;	/* 子要素を横並びにする */
+	gap: 30px;		/* ボタン間のスペースを設定 */
+}
+
+label
+{
+	display: inline-block;
+	width: 300px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+input
+{
+	width: 300px;
+	padding: 5px;
+}
+
+button
+{
+	padding: 10px 20px;	/* ボタンの余白を調整 */
+	font-size: 16px;	/* ボタンのフォントサイズを設定 */
+	cursor: pointer;	/* マウスカーソルをポインタにする */
+}
+
+a
+{
+	text-decoration: none;	/* ボタン内のリンクに下線を表示しない */
+}
+
+canvas
+{
+	border: 1px solid black;
+}

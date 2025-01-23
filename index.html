@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ゲームジャンルオーケストラ生成ツール</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="container">
+	<h1>ゲームジャンルオーケストラジェネレーター</h1>
+	
+	<div class="form-group">
+		<label for="yourName">表示名:</label>
+		<input type="text" id="yourName" placeholder="あなたの表示名を入力">
+	</div>
+	<div class="form-group">
+	  <label for="genre01">アクション:</label>
+	  <input type="text" id="genre01" placeholder="ベストアクションゲームを入力">
+	</div>
+	<div class="form-group">
+		<label for="genre02">対戦格闘:</label>
+		<input type="text" id="genre02" placeholder="ベスト対戦アクションゲームを入力">
+	</div>
+	<div class="form-group">
+		<label for="genre03">シューティング:</label>
+		<input type="text" id="genre03" placeholder="ベストシューティングゲームを入力">
+	</div>
+	<div class="form-group">
+		<label for="genre04">ＲＰＧ:</label>
+		<input type="text" id="genre04" placeholder="ベストＲＰＧゲームを入力">
+	</div>
+	<div class="form-group">
+		<label for="genre05">シミュレーション:</label>
+		<input type="text" id="genre05" placeholder="ベストシミュレーションゲームを入力">
+	</div>
+	<div class="form-group">
+		<label for="genre06">戦略シミュレーション(ストラテジ):</label>
+		<input type="text" id="genre06" placeholder="ベスト戦略シミュレーション(ストラテジ)ゲームを入力">
+	</div>
+	<div class="form-group">
+		<label for="genre07">スポーツ:</label>
+		<input type="text" id="genre07" placeholder="ベストスポーツゲームを入力">
+	</div>
+	<div class="form-group">
+		<label for="genre08">レース:</label>
+		<input type="text" id="genre08" placeholder="ベストレースゲームを入力">
+		<br>
+	</div>
+	<div class="form-group">
+		<label for="genre09">アドベンチャー:</label>
+		<input type="text" id="genre09" placeholder="ベストアドベンチャーゲームを入力">
+	</div>
+	<div class="form-group">
+		<label for="genre10">パズル:</label>
+		<input type="text" id="genre10" placeholder="ベストパズルゲームを入力">
+	</div>
+	<div class="form-group">
+	  <label for="genre11">リズムゲーム:</label>
+	  <input type="text" id="genre11" placeholder="ベストリズムゲームを入力">
+	</div>
+	<div class="form-group">
+		<label for="genre12">パーティーゲーム:</label>
+		<input type="text" id="genre12" placeholder="ベストパーティーゲームを入力">
+	</div>
+	<div class="form-group">
+		<label for="genre13">ワイルドカード:</label>
+		<input type="text" id="genre13" placeholder="ジャンルに分けきれないけどここで推したいゲームを入力">
+	</div>
+	<div class="form-group">
+		<label for="comment">コメント:</label>
+		<input type="text" id="comment" placeholder="何か一言！">
+	</div>
+	
+	<div class="button-group">
+		<button id="generateBtn">シート作成</button>
+		<a id="downloadLink" style="display:none;" download="generated-image.png">
+			<button>画像をダウンロード</button>
+		</a>
+	</div>
+	
+	<canvas id="myCanvas" width="500" height="300"></canvas>
+</div>
+
+<script type="text/javascript" src="js/drawCanvas.js"></script>
+
+</body>
+</html>
