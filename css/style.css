@@ -1,41 +1,41 @@
 html, body
 {
-	margin: 20;	/* ƒfƒtƒHƒ‹ƒg‚Ì—]”’‚ğƒŠƒZƒbƒg */
-	padding: 0;	/* ƒpƒfƒBƒ“ƒO‚àƒŠƒZƒbƒg */
-	/*overflow-x: hidden;*/	/* ‰¡ƒXƒNƒ[ƒ‹‚Ì”­¶‚ğ–h~ */
-	line-height: 2;		/* sŠÔ‚ğ’²® */
+	margin: 20;	/* ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ä½™ç™½ã‚’ãƒªã‚»ãƒƒãƒˆ */
+	padding: 0;	/* ãƒ‘ãƒ‡ã‚£ãƒ³ã‚°ã‚‚ãƒªã‚»ãƒƒãƒˆ */
+	/*overflow-x: hidden;*/	/* æ¨ªã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã®ç™ºç”Ÿã‚’é˜²æ­¢ */
+	line-height: 2;		/* è¡Œé–“ã‚’èª¿æ•´ */
 	text-align: left;
 	font-family: Arial, sans-serif;
 	background-color: #f9f9f9;
-	height: 100%;		/* ƒy[ƒW‘S‘Ì‚Ì‚‚³‚ğİ’è */
+	height: 100%;		/* ãƒšãƒ¼ã‚¸å…¨ä½“ã®é«˜ã•ã‚’è¨­å®š */
 }
 
 .container
 {
 	display: flex;
-	flex-direction: column;		/* q—v‘f‚ğc•ûŒü‚É•À‚×‚é */
-	justify-content: center;	/* c•ûŒü‚Å’†‰›‘µ‚¦ */
-	align-items: center;		/* ‰¡•ûŒü‚Å’†‰›‘µ‚¦ */
+	flex-direction: column;		/* å­è¦ç´ ã‚’ç¸¦æ–¹å‘ã«ä¸¦ã¹ã‚‹ */
+	justify-content: center;	/* ç¸¦æ–¹å‘ã§ä¸­å¤®æƒãˆ */
+	align-items: center;		/* æ¨ªæ–¹å‘ã§ä¸­å¤®æƒãˆ */
 }
 
 .form-group
 {
-	margin-bottom: 8px;	/* Šedivƒ^ƒO‚Ì‰º‚É—]”’‚ğİ’è */
-	display: flex;			/* ƒ‰ƒxƒ‹‚Æ“ü—Í—“‚ğ‰¡•À‚Ñ‚É */
-	align-items: center;	/* ƒ‰ƒxƒ‹‚Æ“ü—Í—“‚ğ‚’¼•ûŒü‚Å’†‰›‘µ‚¦ */
+	margin-bottom: 8px;	/* å„divã‚¿ã‚°ã®ä¸‹ã«ä½™ç™½ã‚’è¨­å®š */
+	display: flex;			/* ãƒ©ãƒ™ãƒ«ã¨å…¥åŠ›æ¬„ã‚’æ¨ªä¸¦ã³ã« */
+	align-items: center;	/* ãƒ©ãƒ™ãƒ«ã¨å…¥åŠ›æ¬„ã‚’å‚ç›´æ–¹å‘ã§ä¸­å¤®æƒãˆ */
 }
 
 .button-group
 {
-	margin-bottom: 8px;	/* Šedivƒ^ƒO‚Ì‰º‚É—]”’‚ğİ’è */
-	display: flex;	/* q—v‘f‚ğ‰¡•À‚Ñ‚É‚·‚é */
-	gap: 30px;		/* ƒ{ƒ^ƒ“ŠÔ‚ÌƒXƒy[ƒX‚ğİ’è */
+	margin-bottom: 8px;	/* å„divã‚¿ã‚°ã®ä¸‹ã«ä½™ç™½ã‚’è¨­å®š */
+	display: flex;	/* å­è¦ç´ ã‚’æ¨ªä¸¦ã³ã«ã™ã‚‹ */
+	gap: 30px;		/* ãƒœã‚¿ãƒ³é–“ã®ã‚¹ãƒšãƒ¼ã‚¹ã‚’è¨­å®š */
 }
 
 label
 {
 	display: inline-block;
-	width: 300px;
+	width: 350px;
 	text-align: right;
 	margin-right: 10px;
 }
@@ -48,14 +48,14 @@ input
 
 button
 {
-	padding: 10px 20px;	/* ƒ{ƒ^ƒ“‚Ì—]”’‚ğ’²® */
-	font-size: 16px;	/* ƒ{ƒ^ƒ“‚ÌƒtƒHƒ“ƒgƒTƒCƒY‚ğİ’è */
-	cursor: pointer;	/* ƒ}ƒEƒXƒJ[ƒ\ƒ‹‚ğƒ|ƒCƒ“ƒ^‚É‚·‚é */
+	padding: 10px 20px;	/* ãƒœã‚¿ãƒ³ã®ä½™ç™½ã‚’èª¿æ•´ */
+	font-size: 16px;	/* ãƒœã‚¿ãƒ³ã®ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºã‚’è¨­å®š */
+	cursor: pointer;	/* ãƒã‚¦ã‚¹ã‚«ãƒ¼ã‚½ãƒ«ã‚’ãƒã‚¤ãƒ³ã‚¿ã«ã™ã‚‹ */
 }
 
 a
 {
-	text-decoration: none;	/* ƒ{ƒ^ƒ““à‚ÌƒŠƒ“ƒN‚É‰ºü‚ğ•\¦‚µ‚È‚¢ */
+	text-decoration: none;	/* ãƒœã‚¿ãƒ³å†…ã®ãƒªãƒ³ã‚¯ã«ä¸‹ç·šã‚’è¡¨ç¤ºã—ãªã„ */
 }
 
 canvas
